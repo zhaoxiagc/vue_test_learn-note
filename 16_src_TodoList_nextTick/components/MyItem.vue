@@ -52,7 +52,7 @@ export default {
         console.log('todo身上没有isEdit')
         this.$set(todo,'isEdit',true)
       }
-      //$nextTick所指定的回调，会在DOM借点更新之后再执行
+      //$nextTick所指定的回调，会在DOM节点更新之后再执行
       this.$nextTick(function(){
         this.$refs.inputTitle.focus()
       })
