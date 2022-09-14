@@ -1,6 +1,8 @@
 <template>
-    <Student/><hr>
-    <School/><hr>
+    <div>
+        <Student/><hr>
+        <School/><hr>
+    </div>
 </template>
 
 <script>

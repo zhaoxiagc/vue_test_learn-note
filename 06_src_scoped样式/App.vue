@@ -1,7 +1,9 @@
 <template>
-    <Student/><hr>
-    <School/><hr>
-    <h1 class="demo">测试scoped的作用</h1>
+    <div>
+        <Student/><hr>
+        <School/><hr>
+        <h1 class="demo">测试scoped的作用</h1>
+    </div>
 </template>
 
 <script>

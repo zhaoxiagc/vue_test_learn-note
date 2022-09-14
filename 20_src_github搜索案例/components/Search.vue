@@ -12,7 +12,7 @@
 <script>
 import axios from 'axios'
 export default {
-    name:'Search',
+    name:"SearchInfo",
     data() {
       return {
         keyWord:''

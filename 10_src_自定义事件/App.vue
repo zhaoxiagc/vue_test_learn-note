@@ -42,7 +42,7 @@
             }
         },
          mounted(){
-             this.$refs.student.$on('atguigu',this.getStudentName)   //绑定自定义事件
+            //  this.$refs.student.$on('atguigu',this.getStudentName)   //绑定自定义事件
         //     this.$refs.student.$once('atguigu',this.getStudentName)   //绑定自定义事件（一次性）
          }
     }

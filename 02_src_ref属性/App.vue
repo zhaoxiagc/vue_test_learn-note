@@ -1,7 +1,9 @@
 <template>
-    <h1 v-text="msg" ref="title"></h1>
-    <button ref="btn" @click="showDOM">点我输出上方的DOM元素</button>
-    <School ref="sch"/>
+    <div>
+        <h1 v-text="msg" ref="title"></h1>
+        <button ref="btn" @click="showDOM">点我输出上方的DOM元素</button>
+        <School ref="sch"/>
+    </div>
 </template>
 
 <script>

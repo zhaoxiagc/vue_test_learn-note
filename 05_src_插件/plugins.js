@@ -12,7 +12,7 @@ export default {
                 element.value = binding.value
             },
             //指令所在元素被插入页面时
-            inserted(element,binding){
+            inserted(element){
                 element.focus()
             },
             //指令所在的模板被重新解析时
